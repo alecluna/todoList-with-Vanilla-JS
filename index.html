@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Who do you know here</h1>
+
+  <div>
+    <button onclick="handlers.displayTodos()"> Display  </button>
+
+    <button onclick="handlers.toggleAll()"> Toggle All</button>
+  </div>
+
+  <div>
+    <button onclick="handlers.addTodos()"> Add </button>
+    <input id="addTodoTextInput" input="text">
+  </div>
+
+  <div>
+    <button onclick="handlers.changeTodos()"> Change </button>
+    <input id="changeTodoNumber" type="number">
+    <input id="changeTodoText" type="text">
+  </div>
+  
+  <div>
+    <button onclick="handlers.removeTodos()"> Remove </button>
+    <input id="removeTodosInput" type="number">
+  </div>
+
+  <div>
+    <button onclick="handlers.toggleCompleted()"> Toggle Completed </button>
+    <input id="toggleCompleted" type="number">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
